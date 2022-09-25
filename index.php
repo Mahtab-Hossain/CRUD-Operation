@@ -12,7 +12,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+<main>
+    <!-- heading start -->
+    <div class="container text-center">
+        <h1 class="py-5 bg-dark text-light rounded"> <i class="fa fa-gavel" aria-hidden="true"></i> Auction Site</h1>
+    <!-- heading end -->
+
+    <!-- input start -->
+        <div class="d-flex justify-content-center">
+
+        <!-- input form start -->
+            <form action="" method="post" class="w-50">
+                 <div class="pt-3">
+                 <?php input_element("<i class='fas fa-id-badge'></i>","ID", "auction_id",""); ?>
+                 </div>
+                 <div class="pt-3">
+                 <?php input_element("<i class='fas fa-gavel'></i>","Item", "auction_item",""); ?>
+                 </div>
+
+                 <div class="row pt-3">
+                 <div class="col">
+                 <?php input_element("<i class='fas fa-people-carry'></i>","Seller", "seller",""); ?>
+                 </div>
+                 <div class="col">
+                 <?php input_element("<i class='fas fa-dollar-sign'></i>","Price", "item_price",""); ?>
+                 </div>
+
+                 </div>
+
+            </form>
+            <!-- input form end -->
+        </div>
+        <!-- input end -->
+    </div>
+</main>
+
 
 
             <!--JavaScript-->
