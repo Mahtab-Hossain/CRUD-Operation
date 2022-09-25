@@ -1,3 +1,8 @@
+<?php
+require_once("../crud/element.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
