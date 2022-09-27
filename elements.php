@@ -13,5 +13,13 @@ function input_element($icon, $placeholder, $name, $value){
     ";
     echo $element;
 }
+function button($button_id,$button_name,$btn_attribute,$text,$btn_style){
+    $button = "
+    <button id='$button_id' name='$button_name''$btn_attribute'
+    class = '$btn_style'
+    >$text</button>
+    ";
+    echo $button;
+}
 
 ?>
