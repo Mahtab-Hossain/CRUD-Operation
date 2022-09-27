@@ -45,11 +45,36 @@ require_once("../crud/element.php");
                  </div>
 
                  </div>
-
+                <!-- button start -->
+                <div class="d-flex justify-content-center">
+                    <?php button("btn-create","create","","Create","btn btn-outline-dark");
+                    ?>
+                    <?php button("btn-read","read","","Read","btn btn-outline-secondary");
+                    ?>
+                    <?php button("btn-update","update","","Update","btn btn-outline-warning");
+                    ?>
+                    <?php button("btn-delete","delete","","Delete","btn btn-outline-danger");
+                    ?>
+                </div>
             </form>
             <!-- input form end -->
         </div>
         <!-- input end -->
+
+        <!-- data table start -->
+        <div class="d-flex table-data">
+            <table class="table table-dark">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Item Id</th>
+                        <th>Item Name</th>
+                        <th>Seller</th>
+                        <th>Price</th>
+                        <th>Update</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
     </div>
 </main>
 
