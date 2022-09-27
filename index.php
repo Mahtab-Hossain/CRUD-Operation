@@ -60,7 +60,7 @@ require_once("../crud/element.php");
             <!-- input form end -->
         </div>
         <!-- input end -->
-        
+
         <!-- data table start -->
         <div class="d-flex table-data">
             <table class="table table-dark">
@@ -70,6 +70,7 @@ require_once("../crud/element.php");
                         <th>Item Name</th>
                         <th>Seller</th>
                         <th>Price</th>
+                        <th>Update</th>
                     </tr>
                 </thead>
             </table>
